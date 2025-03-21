@@ -4,7 +4,7 @@ import up from "./assets/up.png";
 import down from "./assets/down.png";
 import add from "./assets/add.png";
 import w from "./assets/static.png"
-import "./app.css";
+import "./App.css";
 function App() {
   const [todo, setTodo] = useState("");
   const [list, setList] = useState([]);
