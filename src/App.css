@@ -157,3 +157,18 @@ flex-direction: column;
   padding: 20px;
   font-family: "Poppins", sans-serif;
 }
+
+@media(max-width:948px){
+  .list{
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows: repeat(20,75px);
+  }
+}
+@media (max-width:646px) {
+  .list{
+    grid-template-columns: repeat(1,250px);
+    grid-template-rows: repeat(40,75px);
+
+  }
+  
+}
